@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Portfolio</title>
+  <title>Ajay Krishna</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -32,28 +32,35 @@ I'm a motivated and detail-oriented front-end developer with a strong foundation
   <li>JavaScript (ES6+)</li>
   <li>Responsive Design</li>
   <li>Basic Git & GitHub</li>
+  <li>DOM Manipulation</li>
 </ul>
   </section>
 
   <!-- Portfolio -->
   <section class="portfolio" id="portfolio">
-    <h2>Selected Work</h2>
+    <h2>Personal Projects</h2>
     <div class="grid">
       <div class="card">
-        <h3>E-commerce Redesign</h3>
-        <p>Modern UI/UX for a fashion site. Built with React & SCSS.</p>
-        <a href="#" class="btn small">View Project</a>
+        <h3>Form Validation Page</h3>
+        <p>Responsive form validation with HTML5, CSS3, and JavaScript (ES6+).</p>
+        <a href="https://ajaykrishna1404.github.io/Form-Validation-Page-HTML-CSS-JAVASCRIPT/" class="btn small">View Project</a>
       </div>
       <div class="card">
-        <h3>Wellness App UI</h3>
-        <p>Minimalist UI design for a meditation app. Designed in Figma.</p>
-        <a href="#" class="btn small">View Project</a>
+        <h3>Real Time Weather Dashboard</h3>
+        <p>Responsive weather dashboard using HTML5, CSS3, JavaScript (ES6+) and DOM Manipulation featuring real-time data from the OpenWeather API.</p>
+        <a href="https://ajaykrishna1404.github.io/Real-Time-Weather-Dashboard-HTML-CSS-JAVASCRIPT-RESPONSIVE/" class="btn small">View Project</a>
       </div>
       <div class="card">
-        <h3>Photography Series</h3>
-        <p>Urban lifestyle photos in black & white. Canon EOS R.</p>
-        <a href="#" class="btn small">View Gallery</a>
-      </div>
+  <h3>Expense Tracker with Local Storage</h3>
+  <p>
+    Responsive expense tracker using HTML5, CSS3, JavaScript (ES6+) and DOM Manipulation with localStorage-based data saving.
+  </p>
+  <a
+    href="https://ajaykrishna1404.github.io/Expense-Tracker-with-Local-Storage/"
+    class="btn small"
+  >View Project</a>
+</div>
+
     </div>
   </section>
 
@@ -63,16 +70,20 @@ I'm a motivated and detail-oriented front-end developer with a strong foundation
     <p>Interested in working together? Let's connect.</p>
     <a href="mailto:you@example.com" class="btn primary">Contact Me</a>
     <div class="social-links">
-      <a href="#">LinkedIn</a>
-      <a href="#">GitHub</a>
-      <a href="#">Instagram</a>
+      <a href="https://www.linkedin.com/in/ajaykrishna-prathipati/">LinkedIn</a>
+      <a href="https://github.com/ajaykrishna1404">GitHub</a>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Ajay Krishna • Built with ❤️ using HTML, CSS, Flexbox & Grid</p>
-  </footer>
+<!-- Footer -->
+<footer>
+  <p>&copy; <span id="year"></span> Ajay Krishna • All rights reserved.</p>
+</footer>
+
+<script>
+  // Set current year in footer
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
