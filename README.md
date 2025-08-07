@@ -1,1 +1,1 @@
-# Landing-Page-HTML-CSS
+I'm a motivated and detail-oriented front-end developer with a strong foundation in HTML5, CSS3, and modern JavaScript (ES6+). I enjoy turning designs into responsive, accessible, and user-friendly web pages. I'm currently expanding my knowledge in front-end frameworks and best practices, and I'm eager to contribute to real-world projects as I continue to grow in the field.
