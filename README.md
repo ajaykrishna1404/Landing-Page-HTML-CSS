@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This project showcases who I am as a c
 
 ## 🔗 Live Demo
 
-👉 [View Portfolio Live](https://ajaykrishna1404.github.io/)
+👉 [View Portfolio Live](https://ajaykrishna1404.github.io/Landing-Page-HTML-CSS/)
 
 ---
 
@@ -56,7 +56,7 @@ Welcome to my personal portfolio website! This project showcases who I am as a c
 
 Feel free to reach out to collaborate or provide feedback:
 
-* ✉️ Email: [ajay@example.com](ajaykrishnaprathipati@gmail.com)
+* ✉️ Email: [ajaykrishnaprathipati@gmail.com](mailto:ajaykrishnaprathipati@gmail.com)
 * 🔗 [LinkedIn](https://www.linkedin.com/in/ajaykrishna-prathipati/)
 * 💻 [GitHub](https://github.com/ajaykrishna1404)
 
